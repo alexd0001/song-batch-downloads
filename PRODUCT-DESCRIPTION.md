@@ -29,7 +29,7 @@ Select the markers you want in **Song projects**, then choose how to organize th
 - **LUNA versions:** create a named song version inside the current session, keeping your work together.
 - **Separate sessions:** create an individual session per song, with an optional destination folder.
 
-Each selected marker starts a song and the next marker ends it. Song Batch retains that song’s material, crops it to the marker range and moves it to **0:00**. Supported playlists, channel, bus, Main and plug-in automation, plus clip-relative gain envelopes, are processed with the song. The original marker name becomes the version or session name. The saved Song level is carried over to the new start marker for use in Song Batch.
+Each selected marker starts a song and the next marker ends it. Song Batch retains that song’s material, crops it to the marker range and moves it to **0:00**. Supported playlists, channel, bus, Main and plug-in automation, plus clip-relative gain envelopes, are processed with the song. The original marker name becomes the version or session name. Choose how the new project handles its level: keep the original mix and retain the saved Song Batch adjustment, or apply that adjustment permanently to Main trim. In permanent mode, the new marker’s Song level is reset to 0 dB to prevent double gain. The adjustment then also applies to ordinary playback in LUNA. The Main fader is unchanged.
 
 Before processing, Song Batch saves a **Song Batch – Full session** checkpoint. Once the selected songs are created, it reopens and verifies that checkpoint. You can move from managing a long live set to working on a focused song, with the full-session checkpoint available for recovery.
 
@@ -46,3 +46,7 @@ An independent LUNA Add On by **trinidub** · **alex@trinidub.de**.
 ## Short listing description
 
 Turn a LUNA live session into individual songs. Batch-export selected marker ranges as stereo WAV or MP3 at 44.1 kHz, with saved per-song level adjustments and customizable filenames. Create marker-named LUNA versions or separate song sessions, with each song’s material starting at 0:00. Song Batch saves a full-session checkpoint before project creation and reopens it afterwards. macOS beta by trinidub.
+
+## What’s next
+
+See [Next steps](NEXT-STEPS.md) for planned enhancements, including song-boundary controls, loudness analysis, export presets and multi-format delivery. These features are not part of the current beta.

@@ -1,5 +1,3 @@
-<img src="icon.png" width="96" alt="Song Batch icon">
-
 # Song Batch Beta
 
 **One live session. Every song ready for its next step.**
@@ -18,6 +16,8 @@ Export the Main stereo mix through LUNA, followed by FFmpeg conversion to **WAV 
 
 Choose markers in **Song projects**, then create named **LUNA versions within the current session** or **separate sessions per song**. Each marker range is cropped and shifted to 0:00, including supported playlists, automation and clip gain. Results use the marker names. The saved Song level is carried to the new start marker for use in Song Batch.
 
+Choose **Keep original mix** to retain the adjustment only for Song Batch preview/export, or **Apply Song level permanently to Main trim** to save it into each new project’s native mix. Permanent mode resets that project’s Song level to **0 dB**, avoiding a second adjustment. The Main fader is unchanged.
+
 A **Song Batch – Full session** checkpoint is saved first, then reopened and verified after processing. Independent backups remain recommended.
 
 [Read the full feature description](PRODUCT-DESCRIPTION.md).
@@ -26,8 +26,8 @@ A **Song Batch – Full session** checkpoint is saved first, then reopened and v
 
 Get both files from the [latest release](https://github.com/alexd0001/song-batch-downloads/releases/latest):
 
-1. **Song-Batch-0.6.4.lunaaddon**
-2. **Song-Batch-macOS-Helper-0.6.4.zip**
+1. **Song-Batch-0.6.5.lunaaddon**
+2. **Song-Batch-macOS-Helper-0.6.5.zip**
 
 Requirements: **macOS, LUNA 3.1.2+, Node.js 22+, FFmpeg and FFprobe**. Install these separately; they are not bundled. No developer checkout or npm install is needed.
 
@@ -39,8 +39,12 @@ This portable helper does not register a login service. Do not close its Termina
 
 Song-project creation requires constant tempo, time signature and key. Frozen channels and lyrics, chord or section tracks are not supported. Source media remains untrimmed, so separate sessions may use substantial disk space. Song sessions keep their original sample rate; audio exports use 44.1 kHz. Main automation must be compatible and Main trim must not be automated for per-song level adjustment.
 
-Sessions, audio, credentials and plug-in authorizations are not included. The release passed 31 automated tests. Earlier isolated LUNA checks covered rendering, level restoration, song-project creation and checkpoint restoration. This packaged release has not been fully tested on a second Mac.
+Sessions, audio, credentials and plug-in authorizations are not included. The release passed 38 automated tests. Earlier isolated LUNA checks covered rendering, level restoration, song-project creation and checkpoint restoration. The new level-mode UI was checked for both project types, and read-only preflight was verified against LUNA 3.1.2.4699. Permanent level persistence in newly saved native versions/sessions still needs a dedicated end-to-end check; the open user session was not used for this test. This package has not been fully tested on a second Mac.
 
 ## License and source
 
 This repository distributes beta downloads and documentation. Development source remains private. See [LICENSE](LICENSE) for limited evaluation permission and [third-party notices](THIRD-PARTY-NOTICES.md) for SDK terms. Delivered JavaScript remains inspectable. Independent utility; not an official Universal Audio product.
+
+## Next steps
+
+[Planned enhancements](NEXT-STEPS.md): song boundaries and tails, loudness analysis, project review, export presets, multiple formats and batch reports. These are not included in the current beta.
