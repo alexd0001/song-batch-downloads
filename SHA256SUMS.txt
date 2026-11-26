@@ -1,0 +1,2 @@
+2cd1e1ce202207d291e8c7d26b8030ccebaf1b1b1c7f64ba5ca6f29c26763060  Song-Batch-0.6.4.lunaaddon
+409cfed4762ffbb4ff356df19519f280ec9153c330f4b9c067154c33c1f9b5c9  Song-Batch-macOS-Helper-0.6.4.zip
