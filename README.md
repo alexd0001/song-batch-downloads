@@ -48,3 +48,7 @@ This repository distributes beta downloads and documentation. Development source
 ## Next steps
 
 [Planned enhancements](NEXT-STEPS.md): song boundaries and tails, loudness analysis, project review, export presets, multiple formats and batch reports. These are not included in the current beta.
+
+## Download statistics
+
+[View download counts by version and file](stats/README.md). Updated daily, with downloadable CSV data and saved daily snapshots. These are aggregate GitHub downloads, not installations or unique users; repeat downloads and verification downloads are included. No tracking is added to the apps.
