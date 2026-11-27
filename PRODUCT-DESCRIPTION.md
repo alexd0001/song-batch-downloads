@@ -120,3 +120,10 @@ An independent LUNA Add On by **trinidub** · **alex@trinidub.de**.
 ## Short description for Discover
 
 Build rough mixes from a complete concert or live recording using song markers. Use existing markers or detect and review suggested boundaries, preview songs, adjust their levels and batch-export stereo WAV or MP3 files. Create named session versions within the original session package, or independent LUNA sessions for individual songs, each starting at 0:00. A full-session checkpoint is saved before project creation and reopened afterwards. macOS only; companion helper required.
+
+
+### Review boundaries on the waveform
+
+The **Main mix overview** displays real peak data from the analyzed stereo render. Gold lines mark proposed song starts and the final End; gray dashed lines show existing markers. Drag a proposed boundary to adjust it, or enter its time in seconds. Adjacent starts define the song ranges, and boundaries cannot cross.
+
+Zoom from **1× to 16×**, scroll horizontally and click the waveform to audition that position in LUNA. Play/pause, Stop and the moving cursor help check transitions before creating markers. Arrow keys move the focused boundary by one second; Shift uses ten seconds and Alt uses 0.1 seconds. This is a coarse peak overview rather than a sample-level editor. Existing markers remain unchanged until you apply the reviewed proposal.

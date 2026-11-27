@@ -10,6 +10,13 @@ Turn LUNA markers into individual stereo exports, named song versions or separat
 
 Use existing markers or choose **Detect songs** to analyze the current Main stereo mix for pauses. Set the silence threshold, minimum pause and minimum song length, then review and preview the proposed names and start positions.
 
+
+### Review boundaries on the waveform
+
+The **Main mix overview** displays real peak data from the analyzed stereo render. Gold lines mark proposed song starts and the final End; gray dashed lines show existing markers. Drag a proposed boundary to adjust it, or enter its time in seconds. Adjacent starts define the song ranges, and boundaries cannot cross.
+
+Zoom from **1× to 16×**, scroll horizontally and click the waveform to audition that position in LUNA. Play/pause, Stop and the moving cursor help check transitions before creating markers. Arrow keys move the focused boundary by one second; Shift uses ten seconds and Alt uses 0.1 seconds. This is a coarse peak overview rather than a sample-level editor. Existing markers remain unchanged until you apply the reviewed proposal.
+
 **Keep existing markers** adds missing boundaries while preserving your layout. **Replace existing markers** requires typing **REPLACE** and backs up the original layout first. Markers are only written after you press **Create reviewed markers**. Analysis alone leaves them unchanged. This is pause/level detection, not song-title recognition; applause, quiet passages and seamless transitions need manual checking.
 
 Work through the full concert or live act, adjust per-song levels and export selected stereo rough mixes. After listening, choose one, several or all songs to develop further. Split only that selection into session versions or independent sessions starting at 0:00; the full concert does not have to become separate projects.
@@ -59,8 +66,8 @@ The full-session checkpoint restores the original mix and saved song adjustments
 
 Get both files from the [latest release](https://github.com/alexd0001/song-batch-downloads/releases/latest):
 
-1. **Song-Batch-0.7.0.lunaaddon**
-2. **Song-Batch-macOS-Helper-0.7.0.zip**
+1. **Song-Batch-0.8.0.lunaaddon**
+2. **Song-Batch-macOS-Helper-0.8.0.zip**
 
 Requirements: **macOS, LUNA 3.1.2+, Node.js 22+, FFmpeg and FFprobe**. Install these separately; they are not bundled. No developer checkout or npm install is needed.
 
