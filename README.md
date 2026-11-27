@@ -73,8 +73,8 @@ The full-session checkpoint restores the original mix and saved song adjustments
 
 Get both files from the [latest release](https://github.com/alexd0001/song-batch-downloads/releases/latest):
 
-1. **Song-Batch-0.9.0.lunaaddon**
-2. **Song-Batch-macOS-Helper-0.9.0.zip**
+1. **Song-Batch-0.9.1.lunaaddon**
+2. **Song-Batch-macOS-Helper-0.9.1.zip**
 
 Requirements: **macOS, LUNA 3.1.2+, Node.js 22+, FFmpeg and FFprobe**. Install these separately; they are not bundled. No developer checkout or npm install is needed.
 
