@@ -22,7 +22,7 @@ The graphical review, boundary editing and marker Keep/Replace options remain th
 
 The **Main mix overview** displays real peak data from the selected reference track or analyzed Main render. Gold lines mark proposed song starts and the final End; gray dashed lines show existing markers. Drag a proposed boundary to adjust it, or enter its time in seconds. Adjacent starts define the song ranges, and boundaries cannot cross.
 
-Zoom from **1× to 16×**, scroll horizontally and click the waveform to audition that position in LUNA. Play/pause, Stop and the moving cursor help check transitions before creating markers. Arrow keys move the focused boundary by one second; Shift uses ten seconds and Alt uses 0.1 seconds. This is a coarse peak overview rather than a sample-level editor. Existing markers remain unchanged until you apply the reviewed proposal.
+Zoom from **1× to 16×** with **+ / −**, **Fit all**, the zoom menu or **Ctrl/⌘ + mouse wheel**, then scroll horizontally and click the waveform to audition that position in LUNA. The active song is highlighted with **Playing** and **Pause preview**; a paused song shows **Resume preview**. Stop clears the selection. Play/pause, Stop and the moving cursor help check transitions before creating markers. Arrow keys move the focused boundary by one second; Shift uses ten seconds and Alt uses 0.1 seconds. This is a coarse peak overview rather than a sample-level editor. Existing markers remain unchanged until you apply the reviewed proposal.
 
 **Keep existing markers** adds missing boundaries while preserving your layout. **Replace existing markers** requires typing **REPLACE** and backs up the original layout first. Markers are only written after you press **Create reviewed markers**. Analysis alone leaves them unchanged. This is pause/level detection, not song-title recognition; applause, quiet passages and seamless transitions need manual checking.
 
@@ -73,8 +73,8 @@ The full-session checkpoint restores the original mix and saved song adjustments
 
 Get both files from the [latest release](https://github.com/alexd0001/song-batch-downloads/releases/latest):
 
-1. **Song-Batch-0.9.1.lunaaddon**
-2. **Song-Batch-macOS-Helper-0.9.1.zip**
+1. **Song-Batch-0.9.2.lunaaddon**
+2. **Song-Batch-macOS-Helper-0.9.2.zip**
 
 Requirements: **macOS, LUNA 3.1.2+, Node.js 22+, FFmpeg and FFprobe**. Install these separately; they are not bundled. No developer checkout or npm install is needed.
 

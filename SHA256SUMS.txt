@@ -1,2 +1,2 @@
-5964391d9f900ed93872854142ea1c98a070353717a3b188cc513762ead65bb8  Song-Batch-0.9.1.lunaaddon
-f4dcd76d5d8361cb0dcdee2bcedbb6b96587037954cfc7a0efa88fa490bf89b7  Song-Batch-macOS-Helper-0.9.1.zip
+3c5b6dec116d0e470ce61a062b932d41c8d6e1318956f21bf338b99903ef79dc  Song-Batch-0.9.2.lunaaddon
+5ed494c7e3fdf5af066ab9e4a2b288f4918159f7ad3aa32485bb2d4b5e747d3a  Song-Batch-macOS-Helper-0.9.2.zip
