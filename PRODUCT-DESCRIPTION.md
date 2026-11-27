@@ -122,8 +122,15 @@ An independent LUNA Add On by **trinidub** · **alex@trinidub.de**.
 Build rough mixes from a complete concert or live recording using song markers. Use existing markers or detect and review suggested boundaries, preview songs, adjust their levels and batch-export stereo WAV or MP3 files. Create named session versions within the original session package, or independent LUNA sessions for individual songs, each starting at 0:00. A full-session checkpoint is saved before project creation and reopened afterwards. macOS only; companion helper required.
 
 
+
+### Quick detection — skip the Main render
+
+**Quick detection · audio track** is the default analysis method. Choose a full-length reference audio track, ideally a stereo recording containing the entire concert, then press **Detect songs**. Song Batch reads the visible audio pieces directly from their source files, including source offsets, cuts and timeline gaps. It does not bounce the Main mix or run channel/bus plug-ins. Track faders, clip gain and fades are not modeled, so the selected reference waveform may differ from the audible Main mix.
+
+The graphical review, boundary editing and marker Keep/Replace options remain the same. Audition still plays the current Main mix in LUNA. A sparse instrument track can suggest false pauses; choose a suitable recording and review the result. If source audio is unavailable or a clip cannot be mapped directly, choose **Full mix detection · render Main**. Quick detection never silently starts a full render.
+
 ### Review boundaries on the waveform
 
-The **Main mix overview** displays real peak data from the analyzed stereo render. Gold lines mark proposed song starts and the final End; gray dashed lines show existing markers. Drag a proposed boundary to adjust it, or enter its time in seconds. Adjacent starts define the song ranges, and boundaries cannot cross.
+The **Main mix overview** displays real peak data from the selected reference track or analyzed Main render. Gold lines mark proposed song starts and the final End; gray dashed lines show existing markers. Drag a proposed boundary to adjust it, or enter its time in seconds. Adjacent starts define the song ranges, and boundaries cannot cross.
 
 Zoom from **1× to 16×**, scroll horizontally and click the waveform to audition that position in LUNA. Play/pause, Stop and the moving cursor help check transitions before creating markers. Arrow keys move the focused boundary by one second; Shift uses ten seconds and Alt uses 0.1 seconds. This is a coarse peak overview rather than a sample-level editor. Existing markers remain unchanged until you apply the reviewed proposal.
