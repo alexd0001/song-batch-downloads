@@ -29,3 +29,7 @@ Summarize completed files, project versions, ranges, level adjustments and failu
 ## Implemented in 0.6.5
 
 Song-project creation can retain the original native mix with a saved Song Batch adjustment, or apply the selected Song level permanently to the new project's Main trim. Permanent mode clears the new marker adjustment to 0 dB, avoiding double gain. This choice is available for both LUNA versions and separate song sessions.
+
+## Implemented in 0.7.0
+
+Reviewed automatic song-marker proposals from Main-mix pause/level analysis, with adjustable threshold, pause and minimum-song lengths. Existing markers can be preserved or explicitly replaced; proposal review, preview, marker backup and transaction verification are included. This does not implement musical-title recognition or the independent per-song boundary/tail controls planned above.

@@ -1,8 +1,18 @@
 # Song Batch
 
-**Turn one long LUNA recording into individual songs, ready to listen to, export or mix.**
+**A faster rough-mix workflow for an entire concert or live act, built around song markers.**
 
-Song Batch uses your session markers to organize a live set, rehearsal or long recording into songs. Choose the songs you need, preview them inside LUNA and set an individual output level for each one. Then export stereo files, create song versions inside the original session, or create separate LUNA sessions for individual songs.
+Work through a complete live recording in one place: identify the songs, preview the mix, adjust each song’s output level and batch-export stereo rough mixes. Use your own markers or let **Detect songs** analyze the Main mix and propose song boundaries for review.
+
+Once you have listened and decided which songs deserve further work, select **one, several or all songs**. Keep them as named session versions in the original LUNA package, or split the selection into independent song sessions, each starting at **0:00**. You do not have to split the whole concert just to develop a few chosen songs.
+
+## A practical live-recording workflow
+
+1. Open the full concert or live-act session.
+2. Use existing markers, or analyze the Main mix to propose missing song markers.
+3. Review the boundaries, preview songs and adjust their individual output levels.
+4. Export the selected stereo rough mixes in a batch for listening or review.
+5. Choose which songs to develop further and create their session versions or separate sessions.
 
 ## 1. Choose your songs using markers
 
@@ -11,6 +21,19 @@ Each marker starts a song. The next marker in the session marks its end. Select 
 For example, a song starting at 12:30 and ending at the next marker at 17:45 has a duration of 5:15. Skipping another song does not extend this range: the end is always the next marker, even when that marker is not selected. Optionally include the final marker through the end of the session, or use it only as an end boundary.
 
 Your marker names become the basis for song names, exported filenames and project names.
+
+### No markers yet? Detect songs and review the results
+
+**Detect songs** renders the current Main stereo mix to a temporary analysis file and looks for pauses below your chosen level threshold. Set the silence threshold, minimum pause length and minimum song length. Analysis does not create or delete markers by itself.
+
+Review the proposed song names and start positions, edit them if needed, and use **Preview / pause** to check a boundary. Then choose how to handle existing markers:
+
+- **Keep existing markers · add missing boundaries** (default): existing marker identities, names, colors, comments and positions are preserved. Suggestions within one second of an existing marker are skipped. Existing boundaries may still subdivide a detected song.
+- **Replace existing markers with reviewed boundaries:** create a new marker layout from the reviewed proposal, including a final **End** marker. Replacing an existing layout requires typing **REPLACE**. Original markers and their saved song levels are backed up before the change.
+
+Press **Create reviewed markers** to apply the result. The successful edit is grouped into one LUNA undo transaction. The app checks for marker, tempo or material changes since analysis and refuses stale proposals. Marker backups are kept in **marker-backups** under the helper runtime directory (in the portable package: **Song Batch Helper/runtime/marker-backups**). The final End marker is treated as a boundary: after creation, Song Batch switches off “Include the last marker through the session end” to avoid exporting an extra tail as a song. Temporary analysis audio is removed after the operation.
+
+This is pause/level detection, not musical identification or title recognition. Initial names are **Song 01**, **Song 02**, and so on. Applause, quiet musical sections and seamless transitions can produce missed or incorrect boundaries. Always review the proposal, and leave the session unchanged while analysis is running.
 
 ## 2. Preview and adjust individual song levels
 
@@ -87,7 +110,7 @@ Song-project creation requires constant tempo, time signature and key. Frozen ch
 
 Nonzero song-level adjustments require Main automation in Read or Off, no Main-trim automation and sufficient available trim range. Unsupported settings are rejected before applying the adjustment.
 
-Automated tests cover the project-level choices, including prevention of double gain and rollback on a storage failure. The interface was checked for both project types; read-only preflight was verified on LUNA 3.1.2.4699. Permanent level persistence in newly saved native versions or sessions still needs a dedicated end-to-end check. The packaged release has not been fully tested on a second Mac.
+Automated tests cover song detection, existing-marker preservation, stale-proposal rejection, replacement confirmation and recovery after marker-write failures, as well as the project-level choices. A generated audio fixture verifies the FFmpeg pause analysis. Native end-to-end detection verification could not complete because LUNA failed to load the isolated test session; no successful native detection test is claimed. The interface was checked for both project types; read-only preflight was verified on LUNA 3.1.2.4699. Permanent level persistence in newly saved native versions or sessions still needs a dedicated end-to-end check. The packaged release has not been fully tested on a second Mac.
 
 ## Planned enhancements
 
@@ -97,4 +120,4 @@ An independent LUNA Add On by **trinidub** · **alex@trinidub.de**.
 
 ## Short description for Discover
 
-Turn a long LUNA recording into individual songs. Preview selected marker ranges, adjust each song’s level and batch-export stereo WAV or MP3 files. Create named session versions within the original session package, or independent LUNA sessions for individual songs, each starting at 0:00. A full-session checkpoint is saved before project creation and reopened afterwards. macOS only; companion helper required.
+Build rough mixes from a complete concert or live recording using song markers. Use existing markers or detect and review suggested boundaries, preview songs, adjust their levels and batch-export stereo WAV or MP3 files. Create named session versions within the original session package, or independent LUNA sessions for individual songs, each starting at 0:00. A full-session checkpoint is saved before project creation and reopened afterwards. macOS only; companion helper required.
