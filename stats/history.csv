@@ -5,12 +5,15 @@ sampled_at_utc,version,release_id,asset_id,file,category,downloads
 2026-11-26T17:10:50Z,v0.6.4,459657606,796741305,SHA256SUMS.txt,checksum (excluded),1
 2026-11-26T17:10:50Z,v0.6.4,459657606,796741301,Song-Batch-0.6.4.lunaaddon,add-on,307
 2026-11-26T17:10:50Z,v0.6.4,459657606,796741302,Song-Batch-macOS-Helper-0.6.4.zip,helper/setup,1
-2026-11-27T12:06:26Z,v0.6.6,460552938,800336427,SHA256SUMS.txt,checksum (excluded),0
-2026-11-27T12:06:26Z,v0.6.6,460552938,800336425,Song-Batch-0.6.6.lunaaddon,add-on,0
-2026-11-27T12:06:26Z,v0.6.6,460552938,800336429,Song-Batch-macOS-Helper-0.6.6.zip,helper/setup,0
-2026-11-27T12:06:26Z,v0.6.5,459689768,796858566,SHA256SUMS.txt,checksum (excluded),2
-2026-11-27T12:06:26Z,v0.6.5,459689768,796858565,Song-Batch-0.6.5.lunaaddon,add-on,8843
-2026-11-27T12:06:26Z,v0.6.5,459689768,796858567,Song-Batch-macOS-Helper-0.6.5.zip,helper/setup,2
-2026-11-27T12:06:26Z,v0.6.4,459657606,796741305,SHA256SUMS.txt,checksum (excluded),2
-2026-11-27T12:06:26Z,v0.6.4,459657606,796741301,Song-Batch-0.6.4.lunaaddon,add-on,308
-2026-11-27T12:06:26Z,v0.6.4,459657606,796741302,Song-Batch-macOS-Helper-0.6.4.zip,helper/setup,2
+2026-11-27T16:37:21Z,v0.7.0,460845561,801236815,SHA256SUMS.txt,checksum (excluded),0
+2026-11-27T16:37:21Z,v0.7.0,460845561,801236813,Song-Batch-0.7.0.lunaaddon,add-on,0
+2026-11-27T16:37:21Z,v0.7.0,460845561,801236818,Song-Batch-macOS-Helper-0.7.0.zip,helper/setup,0
+2026-11-27T16:37:21Z,v0.6.6,460552938,800336427,SHA256SUMS.txt,checksum (excluded),2
+2026-11-27T16:37:21Z,v0.6.6,460552938,800336425,Song-Batch-0.6.6.lunaaddon,add-on,2744
+2026-11-27T16:37:21Z,v0.6.6,460552938,800336429,Song-Batch-macOS-Helper-0.6.6.zip,helper/setup,2
+2026-11-27T16:37:21Z,v0.6.5,459689768,796858566,SHA256SUMS.txt,checksum (excluded),2
+2026-11-27T16:37:21Z,v0.6.5,459689768,796858565,Song-Batch-0.6.5.lunaaddon,add-on,8896
+2026-11-27T16:37:21Z,v0.6.5,459689768,796858567,Song-Batch-macOS-Helper-0.6.5.zip,helper/setup,2
+2026-11-27T16:37:21Z,v0.6.4,459657606,796741305,SHA256SUMS.txt,checksum (excluded),2
+2026-11-27T16:37:21Z,v0.6.4,459657606,796741301,Song-Batch-0.6.4.lunaaddon,add-on,308
+2026-11-27T16:37:21Z,v0.6.4,459657606,796741302,Song-Batch-macOS-Helper-0.6.4.zip,helper/setup,2
