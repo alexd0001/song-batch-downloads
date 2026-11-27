@@ -1,6 +1,6 @@
 # Download statistics
 
-Last collected: **2026-11-27T12:06:26Z** (UTC).
+Last collected: **2026-11-27T16:37:21Z** (UTC).
 
 **Downloads, not installations or unique users.** Re-downloads, updates, automated clients and our own verification downloads are included. USB/offline transfers are not counted. Add-On and helper/setup downloads are shown separately; do not add them together to estimate users.
 
@@ -10,19 +10,23 @@ Collected daily by GitHub Actions from GitHub’s aggregate release counters. No
 
 | Version | Add-On downloads | Helper/setup downloads |
 | --- | ---: | ---: |
-| v0.6.6 | 0 | 0 |
-| v0.6.5 | 8843 | 2 |
+| v0.7.0 | 0 | 0 |
+| v0.6.6 | 2744 | 2 |
+| v0.6.5 | 8896 | 2 |
 | v0.6.4 | 308 | 2 |
 
 ## By file
 
 | Version | File | Category | Downloads |
 | --- | --- | --- | ---: |
-| v0.6.6 | SHA256SUMS.txt | checksum (excluded) | 0 |
-| v0.6.6 | Song-Batch-0.6.6.lunaaddon | add-on | 0 |
-| v0.6.6 | Song-Batch-macOS-Helper-0.6.6.zip | helper/setup | 0 |
+| v0.7.0 | SHA256SUMS.txt | checksum (excluded) | 0 |
+| v0.7.0 | Song-Batch-0.7.0.lunaaddon | add-on | 0 |
+| v0.7.0 | Song-Batch-macOS-Helper-0.7.0.zip | helper/setup | 0 |
+| v0.6.6 | SHA256SUMS.txt | checksum (excluded) | 2 |
+| v0.6.6 | Song-Batch-0.6.6.lunaaddon | add-on | 2744 |
+| v0.6.6 | Song-Batch-macOS-Helper-0.6.6.zip | helper/setup | 2 |
 | v0.6.5 | SHA256SUMS.txt | checksum (excluded) | 2 |
-| v0.6.5 | Song-Batch-0.6.5.lunaaddon | add-on | 8843 |
+| v0.6.5 | Song-Batch-0.6.5.lunaaddon | add-on | 8896 |
 | v0.6.5 | Song-Batch-macOS-Helper-0.6.5.zip | helper/setup | 2 |
 | v0.6.4 | SHA256SUMS.txt | checksum (excluded) | 2 |
 | v0.6.4 | Song-Batch-0.6.4.lunaaddon | add-on | 308 |
