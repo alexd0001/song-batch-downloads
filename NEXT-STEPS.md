@@ -1,6 +1,6 @@
 # Song Batch — Next steps
 
-Ideas for future versions, not features shipped in the current beta. Implementation order and LUNA API support still need validation.
+Ideas for future versions, not features shipped in the current release. Implementation order and LUNA API support still need validation.
 
 ## Song boundaries and tails
 
@@ -26,6 +26,6 @@ Create WAV and MP3 for each selected song from a shared native render where poss
 
 Summarize completed files, project versions, ranges, level adjustments and failures. Save a report and retry selected failed entries after checking that the source session, markers and settings still match.
 
-## Implemented in 0.6.5 Beta
+## Implemented in 0.6.5
 
 Song-project creation can retain the original native mix with a saved Song Batch adjustment, or apply the selected Song level permanently to the new project's Main trim. Permanent mode clears the new marker adjustment to 0 dB, avoiding double gain. This choice is available for both LUNA versions and separate song sessions.
