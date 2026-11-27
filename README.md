@@ -72,7 +72,7 @@ This portable helper does not register a login service. Do not close its Termina
 
 Song-project creation requires constant tempo, time signature and key. Frozen channels and lyrics, chord or section tracks are not supported. Source media remains untrimmed, so separate sessions may use substantial disk space. Song sessions keep their original sample rate; audio exports use 44.1 kHz. Main automation must be compatible and Main trim must not be automated for per-song level adjustment.
 
-Sessions, audio, credentials and plug-in authorizations are not included. The release passed 46 automated tests. Earlier isolated LUNA checks covered rendering, level restoration, song-project creation and checkpoint restoration. The new level-mode UI was checked for both project types, and read-only preflight was verified against LUNA 3.1.2.4699. Permanent level persistence in newly saved native versions/sessions still needs a dedicated end-to-end check; the open user session was not used for this test. This package has not been fully tested on a second Mac.
+Sessions, audio, credentials and plug-in authorizations are not included.
 
 ## License and source
 
@@ -85,5 +85,3 @@ This repository distributes application downloads and documentation. Development
 ## Download statistics
 
 [View download counts by version and file](stats/README.md). Updated daily, with downloadable CSV data and saved daily snapshots. These are aggregate GitHub downloads, not installations or unique users; repeat downloads and verification downloads are included. No tracking is added to the apps.
-
-Detection verification: automated marker tests and FFmpeg audio-fixture analysis passed. Native end-to-end detection could not complete because LUNA failed to load its isolated test session. No successful native detection run is claimed.

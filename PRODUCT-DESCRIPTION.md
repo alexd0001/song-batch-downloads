@@ -104,13 +104,12 @@ Download both the **.lunaaddon** and the **macOS Helper ZIP** from the [latest r
 
 The helper is required; importing the Add On alone does not start it. No development checkout or npm install is needed for the prepared download. This portable helper does not install a login service. Do not close it during an export or project-creation job.
 
-## Current limitations and verification
+## Current limitations
 
 Song-project creation requires constant tempo, time signature and key. Frozen channels and lyrics, chord or section tracks are not supported. New song projects keep the session’s original sample rate; audio exports use 44.1 kHz.
 
 Nonzero song-level adjustments require Main automation in Read or Off, no Main-trim automation and sufficient available trim range. Unsupported settings are rejected before applying the adjustment.
 
-Automated tests cover song detection, existing-marker preservation, stale-proposal rejection, replacement confirmation and recovery after marker-write failures, as well as the project-level choices. A generated audio fixture verifies the FFmpeg pause analysis. Native end-to-end detection verification could not complete because LUNA failed to load the isolated test session; no successful native detection test is claimed. The interface was checked for both project types; read-only preflight was verified on LUNA 3.1.2.4699. Permanent level persistence in newly saved native versions or sessions still needs a dedicated end-to-end check. The packaged release has not been fully tested on a second Mac.
 
 ## Planned enhancements
 
