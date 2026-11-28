@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "repository": "alexd0001/song-batch-downloads",
-  "sampled_at": "2026-11-27T19:59:19Z",
+  "sampled_at": "2026-11-28T15:41:00Z",
   "releases": [
     {
       "id": 461014570,
@@ -13,19 +13,19 @@
           "id": 801861833,
           "name": "SHA256SUMS.txt",
           "category": "checksum (excluded)",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "id": 801861836,
           "name": "Song-Batch-0.9.2.lunaaddon",
           "category": "add-on",
-          "downloads": 0
+          "downloads": 10155
         },
         {
           "id": 801861835,
           "name": "Song-Batch-macOS-Helper-0.9.2.zip",
           "category": "helper/setup",
-          "downloads": 0
+          "downloads": 3
         }
       ]
     },
@@ -45,7 +45,7 @@
           "id": 801383309,
           "name": "Song-Batch-0.9.1.lunaaddon",
           "category": "add-on",
-          "downloads": 1393
+          "downloads": 1516
         },
         {
           "id": 801383317,

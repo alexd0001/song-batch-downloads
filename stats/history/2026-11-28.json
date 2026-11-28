@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "repository": "alexd0001/song-batch-downloads",
+  "sampled_at": "2026-11-28T15:41:00Z",
+  "releases": [
+    {
+      "id": 461014570,
+      "version": "v0.9.2",
+      "published_at": "2026-11-27T19:59:13Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 801861833,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 801861836,
+          "name": "Song-Batch-0.9.2.lunaaddon",
+          "category": "add-on",
+          "downloads": 10155
+        },
+        {
+          "id": 801861835,
+          "name": "Song-Batch-macOS-Helper-0.9.2.zip",
+          "category": "helper/setup",
+          "downloads": 3
+        }
+      ]
+    },
+    {
+      "id": 460886552,
+      "version": "v0.9.1",
+      "published_at": "2026-11-27T17:21:39Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 801383310,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 801383309,
+          "name": "Song-Batch-0.9.1.lunaaddon",
+          "category": "add-on",
+          "downloads": 1516
+        },
+        {
+          "id": 801383317,
+          "name": "Song-Batch-macOS-Helper-0.9.1.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    },
+    {
+      "id": 460880915,
+      "version": "v0.9.0",
+      "published_at": "2026-11-27T17:15:20Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 801364533,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 801364535,
+          "name": "Song-Batch-0.9.0.lunaaddon",
+          "category": "add-on",
+          "downloads": 63
+        },
+        {
+          "id": 801364534,
+          "name": "Song-Batch-macOS-Helper-0.9.0.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    },
+    {
+      "id": 460871648,
+      "version": "v0.8.0",
+      "published_at": "2026-11-27T17:05:07Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 801331528,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 801331531,
+          "name": "Song-Batch-0.8.0.lunaaddon",
+          "category": "add-on",
+          "downloads": 120
+        },
+        {
+          "id": 801331527,
+          "name": "Song-Batch-macOS-Helper-0.8.0.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    },
+    {
+      "id": 460845561,
+      "version": "v0.7.0",
+      "published_at": "2026-11-27T16:37:15Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 801242690,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 801236813,
+          "name": "Song-Batch-0.7.0.lunaaddon",
+          "category": "add-on",
+          "downloads": 322
+        },
+        {
+          "id": 801242689,
+          "name": "Song-Batch-macOS-Helper-0.7.0.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    },
+    {
+      "id": 460552938,
+      "version": "v0.6.6",
+      "published_at": "2026-11-27T12:06:20Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 800336427,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 800336425,
+          "name": "Song-Batch-0.6.6.lunaaddon",
+          "category": "add-on",
+          "downloads": 2841
+        },
+        {
+          "id": 800336429,
+          "name": "Song-Batch-macOS-Helper-0.6.6.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    },
+    {
+      "id": 459689768,
+      "version": "v0.6.5",
+      "published_at": "2026-11-26T16:58:05Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 796858566,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 796858565,
+          "name": "Song-Batch-0.6.5.lunaaddon",
+          "category": "add-on",
+          "downloads": 8896
+        },
+        {
+          "id": 796858567,
+          "name": "Song-Batch-macOS-Helper-0.6.5.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    },
+    {
+      "id": 459657606,
+      "version": "v0.6.4",
+      "published_at": "2026-11-26T16:26:35Z",
+      "prerelease": false,
+      "assets": [
+        {
+          "id": 796741305,
+          "name": "SHA256SUMS.txt",
+          "category": "checksum (excluded)",
+          "downloads": 2
+        },
+        {
+          "id": 796741301,
+          "name": "Song-Batch-0.6.4.lunaaddon",
+          "category": "add-on",
+          "downloads": 308
+        },
+        {
+          "id": 796741302,
+          "name": "Song-Batch-macOS-Helper-0.6.4.zip",
+          "category": "helper/setup",
+          "downloads": 2
+        }
+      ]
+    }
+  ]
+}
